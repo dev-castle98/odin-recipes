@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    background-color: #fff;
+    margin: 8px;
+    padding: 10px;
+}
+
+.titulo{
+    background-color: #e3f4ff;
+    color: #333;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.recetas{
+    background-color: #e3f4ff;
+    padding: 8px;
+    text-align: center;
+}
+
+.recetas li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.recetas a{
+    color: #333;
+    text-decoration: none;
+}
+
+.header_recetas{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.home_recetas{
+    background-color: #e3f4ff;
+    text-decoration: none;
+    list-style: none;
+    padding: 8px 24px;
+    display: inline-block;
+    color: #333;
+    font-size: 24px;
+}
+
+.titulo_recetas{
+    background-color: #e3f4ff;
+    color: #333;
+    text-align: center;
+}
+
+.img_recetas{
+    padding-bottom: 10px;
+}
+
+.section_descripcion,
+.section_ingredientes,
+.section_preparacion{
+    background-color: #e3f4ff;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.titulo_descripcion, 
+.ingredientes_recetas,
+.preparacion_recetas{
+
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.parrafo_descripcion{
+
+    color: #333;
+    text-align: justify;
+    padding: 8px;
+
+}
+
+.lista_recetas{
+        list-style: none;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+}
+
+.lista_recetas,
+.lista_desordenada_recetas{
+
+    text-align: justify;
+}
+
+.lista_desordenada_recetas{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+}
+
+.ingredientes_recetas_sub{
+    font-size: 20px;
+    text-align: start;
+    background-color: #e3f4ff;
+    padding: 3px;
+    margin: 2px;
+}
+
+
+
+
